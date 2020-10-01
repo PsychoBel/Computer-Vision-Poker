@@ -71,7 +71,7 @@ def image_to_number_2(area_number):
     return number.split('\n')[0]
 
 
-image = input('Please, input patj to the picture: ')
+image = input('Please, input path to the picture: ')
 image = Image.open(image)
 image = image.convert('L')
 
